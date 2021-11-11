@@ -228,7 +228,7 @@ main_menu:
     case 'D':
         printf("choose RESPECTIVE conversion unit \n\a");
     temperature_menu:
-        printf("1. celcius to kelvin\n2. celcius to fahrenheit\n3. fahrenhiet to celcius");
+        printf("1. celcius to kelvin\n2. celcius to fahrenheit\n3. fahrenhiet to celcius\n");
         scanf("%d", &num);
 
         switch (num)
