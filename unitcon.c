@@ -8,6 +8,7 @@ int main(int argc, char const *argv[])
     char option;
 
 main_menu:
+    fflush(stdin); //stops the function to print two time menu
 
     printf("CHOOSE THE TYPE OF UNIT YOU WANT TO CONVERT\n");
     printf("\n A. lenght\n B. time\n C. mass\n D. temperature\n E. volume\n");
