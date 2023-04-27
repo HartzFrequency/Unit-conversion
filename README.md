@@ -18,34 +18,47 @@ This will create an executable file named `unit_conversion`. To run the program,
 
 The program will start running and will prompt you to enter the value you want to convert, the unit you are converting from, and the unit you are converting to. Simply follow the on-screen instructions to complete the conversion.
 
-## Supported Units
+## Supported Conversions
 
-The program currently supports the following units:
+The program have following conversions:
 
 ### Length
 
-- millimeters (mm)
-- centimeters (cm)
-- meters (m)
-- kilometers (km)
-- inches (in)
-- feet (ft)
-- yards (yd)
-- miles (mi)
+- kilometer into meter
+- milimeter to meter
+- meter in foot
+- foot to centimeter
+- kilometer to centimeter
+- milimeter to kilometer
+- foot to meter
+- foot to inches
+
+### Time
+
+- hours to seconds
+- minutes to seconds
+- seconds to minutes
+- seconds to hours
 
 ### Weight
 
-- milligrams (mg)
-- grams (g)
-- kilograms (kg)
-- ounces (oz)
-- pounds (lb)
+- kilogram to gram
+- gram to kilogram 
+- kilogram to pound 
+- pound to kilogram
+- tonne to kg
 
 ### Temperature
 
-- Celsius (C)
-- Fahrenheit (F)
-- Kelvin (K)
+- celcius to kelvin 
+- celcius to fahrenheit
+- fahrenhiet to celcius
+
+### Volumne
+
+- meter^3 to feet^3
+- cm^3 to meter^3
+- meter^3  to liter
 
 ## Contributing
 
